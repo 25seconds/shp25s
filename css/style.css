@@ -34,14 +34,17 @@ section{
 	text-align: center;
 	background-color: #EEE;
 	border: 5px solid #BBB;
-	border-radius: 5px;
-}
+	border-radius: 5px;}
 h1 img{
 	width: 25%;
 	background-color: #fff;
 	margin: 3% 0 0 0;
 	padding: 0.5%;
 	border-radius:10px;
+	transition: opacity 0.5s;
+}
+h1 img:hover{
+	opacity: 0.5;
 }
 h3{
 	text-align: center;
@@ -75,17 +78,17 @@ font-size: 1.5rem;
 .fa-twitter:hover{
 	color: #55acee;
 }
-.fa-globe{
+.fa-discord{
 	transition: color 0.5s;
 }
-.fa-globe:hover{
-color: #3088D4;
+.fa-discord:hover{
+	color: #7289D9;
 }
 .fa-envelope{
 	transition: color 0.5s;
 }
 .fa-envelope:hover{
-color: #D81414;
+	color: #D81414;
 }
 .twitter{
 	text-align: center;
@@ -95,7 +98,7 @@ color: #D81414;
 	text-align: center;
 	font-size: 1.0rem;
 }
-.mastodon{
+.Discode{
 	text-align: center;
 	font-size: 1.0rem;
 }
@@ -107,13 +110,7 @@ footer{
 /*以下ズホ環境*/
 
 @media only screen and (max-width:530px){
-	.twitter{
-	display: none;
-	}
-	.mastodon{
-	display: none;
-	}
-	.mail{
+	.invisible{
 	display: none;
 	}
 }
